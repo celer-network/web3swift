@@ -7,10 +7,10 @@ let package = Package(
     name: "Web3swift",
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
-        .library(name: "web3swift", targets: ["web3swift"]),
+        .library(name: "web3swift", type: .dynamic, targets: ["web3swift"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Shvier/BigInt.git", .revision("11d28e5b55bc1506da884a15a9581c9a6374b5e1")),
+        .package(url: "https://github.com/attaswift/BigInt.git", from: "3.1.0"),
         .package(url: "https://github.com/mxcl/PromiseKit.git", from: "6.8.4"),
         .package(url: "https://github.com/daltoniam/Starscream.git", from: "3.1.0"),
         .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.0.0"),
