@@ -30,11 +30,11 @@
       },
       {
         "package": "SipHash",
-        "repositoryURL": "https://github.com/attaswift/SipHash",
+        "repositoryURL": "https://github.com/Shvier/SipHash.git",
         "state": {
           "branch": null,
-          "revision": "e325083424688055363bbfcb7f1a440d7d7a1bae",
-          "version": "1.2.2"
+          "revision": "8833a6a5aae5ab05e034c475bd683ccdc74aeffa",
+          "version": null
         }
       },
       {
